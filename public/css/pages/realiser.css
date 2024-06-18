@@ -1,0 +1,31 @@
+/* ------------------ TYPE DE MAISON ------------------- */
+
+.type-maison-label > .card {
+    transition: 250ms;
+}
+
+.type-maison-label:hover > .card {
+    scale: 1.01;
+}
+
+.type-maison-radio:checked + .type-maison-label > .card{
+    border: 5px solid rgb(43, 83, 185);
+    border-radius: 10px;
+}
+
+/* --------------- TYPE DE FINITION ------------------- */
+
+.type-de-finition-label > .card {
+    transition: 250ms;
+}
+
+.type-de-finition-label:hover > .card {
+    scale: 1.01;
+}
+
+.type-de-finition-radio:checked + .type-de-finition-label > .card{
+    border: 5px solid rgb(43, 83, 185);
+    border-radius: 10px;
+}
+
+/* ----------------------- LIEU ---------------------- */
